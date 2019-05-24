@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Feedback
+    </title>
+  </head>
+  <body>
+    <h1>My feedback form</h1>
+    <form>
+      &#9830; Nume:
+      <input type="text" name="name" placeholder="Insert name" required />
+      <br />
+      &#9830; Email:
+      <input
+        type="email"
+        name="email"
+        placeholder="example@mail.org"
+        required
+      /><br />
+      &#9830; Password:
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter your password"
+        pattern=".{4,}"
+        required
+        title="Password must contain at least 4 characters"
+      /><br />
+      <br />
+      &#9830; Please check all the emotions that apply to you:
+      <p style="padding-left:2em">
+        &#9830; Angry <input type="checkbox" value="Angry" />
+      </p>
+      <p style="padding-left:2em">
+        &#9830; Sad <input type="checkbox" value="Sad" />
+      </p>
+      <p style="padding-left:2em">
+        &#9830; Happy <input type="checkbox" value="Happy" />
+      </p>
+      <p style="padding-left:2em">
+        &#9830; Ambivalent <input type="checkbox" value="Ambivalent" />
+      </p>
+      &#9830; How satisfied are you with our service
+      <p style="padding-left:2em">
+        &#9830; Very satisfied
+        <input type="radio" value="Very satisfied" name="chose" checked />
+      </p>
+      <p style="padding-left:2em">
+        &#9830; Satisfied <input type="radio" value="Satisfied" name="chose" />
+      </p>
+      <p style="padding-left:2em">
+        &#9830; Didn't care
+        <input type="radio" value="Didn't care" name="chose" />
+      </p>
+      <p style="padding-left:2em">
+        &#9830; Dissatisfied
+        <input type="radio" value="Dissatisfied" name="chose" />
+      </p>
+      <p style="padding-left:2em">
+        &#9830; Very dissatisfied
+        <input type="radio" value="Very dissatisfied" name="chose" />
+      </p>
+      &#9830; Further comments:
+      <textarea rows="3" cols="40" name="comment">Enter more text...</textarea
+      ><br />
+      &#9830; Bio photo: <input type="file" required /><br />
+      &#9830; Location visited:
+      <select name="location-visited" required>
+        <option value=""><b>Select location</b></option>
+        <option value="Romania">Romania</option>
+        <option value="Germany">Germany</option>
+        <option value="Sweden">Sweden</option> </select
+      ><br />
+      &#9830; <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>
