@@ -1,0 +1,23 @@
+form {
+    text-align: center;
+    border-radius: 1cm;
+    background: linear-gradient(45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 59%, rgba(224,239,249,1) 86%, rgba(224,239,249,1) 100%);
+    box-shadow: 5px 6px 10px 2px rgba(0,0,0,0.75);
+    margin: 0px 500px 0px;
+    padding-bottom:5px;
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+input[type="text"] {
+    height: 30px;
+}
+
+ul li:nth-child(4n) {
+    Color:red;
+}
+ul li::first-letter{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
