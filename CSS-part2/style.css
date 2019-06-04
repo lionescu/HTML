@@ -1,0 +1,26 @@
+h1 {
+    border: 2px solid red;
+    padding: 10px;
+    background-color: #6A6;
+}
+li {
+    background-color: #de1e7e;
+    margin: 15px;
+}
+p::after{
+    content: "";
+    width: 500px;
+    height: 300px;
+    border: 2px dotted black;
+    background-color: #FB1;
+    display: block;
+}
+a{
+    
+    background-color: #a1a1a1;
+    text-decoration-style: dashed;
+    text-decoration-color: blue;
+    display:block;
+    margin-right:90%;
+}
+
